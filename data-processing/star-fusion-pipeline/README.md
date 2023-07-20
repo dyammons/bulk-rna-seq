@@ -41,7 +41,7 @@ pro-tip: if you do not want to export the paths every time you use singularity, 
 
 If you followed the above file structure you can test the install with:
 ```sh
-singularity exec -e -H /projects/$USER/software/star-fusion/ /projects/$USER/software/star-fusion/star-fusion.v1.12.0.simg /projects/$USER/software/STAR-Fusion/star-fusion/ctat-genome-lib-builder/prep_genome_lib.pl -h
+singularity exec -e -H /projects/$USER/software/star-fusion/ /projects/$USER/software/star-fusion/star-fusion.v1.12.0.simg /projects/$USER/software/star-fusion/ctat-genome-lib-builder/prep_genome_lib.pl -h
 ```
 
 When running the above command you should see a help menu. If you do, then the software should be installed and ready for use.
