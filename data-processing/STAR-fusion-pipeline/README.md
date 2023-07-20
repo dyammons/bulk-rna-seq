@@ -1,4 +1,4 @@
-#### Installation instructions for Alpine
+## Installation instructions for Alpine
 
 First, navigate to a safe place to install the software (`/projects/$USER/software/star-fusion/` or similar location). Use `/projects/$USER/software/star-fusion/` if the directory does not already exist.
 
@@ -39,7 +39,7 @@ singularity exec -e -H /projects/$USER/software/star-fusion/ /projects/$USER/sof
 
 When running the above command you should see a help menu. If you do, then the software should be installed and ready for use.
 
-There are a few more steps, but the next will provide a template to build a fusion library to make predictions using the canine genome.
+There are a few more steps, but the next will provide a template to build a fusion library to make predictions using the canine genome. This is a big job that can take time, so reference the associated `cute-star-fusion.sbatch` and `star-fusion.sh` scripts to get a job submitted.
 ```sh
 singularity exec -e -H /projects/$USER/software/star-fusion/ /projects/$USER/software/star-fusion/star-fusion.v1.12.0.simg /projects/$USER/software/STAR-Fusion/star-fusion/ctat-genome-lib-builder/prep_genome_lib.pl \
 --CPU 8 --genome_fa /absolute/path/to/Canis_familiaris.CanFam3.1.dna.toplevel.fa \
