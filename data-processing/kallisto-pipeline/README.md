@@ -2,7 +2,7 @@
 
 
 ### Softare installation
-Check the [kallisto manual](https://pachterlab.github.io/kallisto/manual) for most recent installation instructions.  
+Check the [kallisto manual](https://pachterlab.github.io/kallisto/manual){:target="_blank"} for most recent installation instructions.  
 Additionally, I would encourage you to install the software at `/projects/$USER/software/`.
 
 ```sh
