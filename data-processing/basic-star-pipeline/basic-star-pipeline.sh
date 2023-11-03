@@ -70,7 +70,7 @@ ls $inputdir | grep ".fq" | cut -d"_" -f1 | sort -u > samples.tmp
 while read line
 do
      echo $line"_1.fq,"$line"_2.fq,"$line >> metadata.csv
-done < samples.txt
+done < samples.tmp
 
 metadata=$1
 
