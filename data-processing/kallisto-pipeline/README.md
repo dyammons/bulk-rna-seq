@@ -1,7 +1,7 @@
 ## kallisto pipeline installation and useage on Alpine
 
 
-### Softare installation
+### Software installation
 Check the [kallisto manual](https://pachterlab.github.io/kallisto/manual) for most recent installation instructions.  
 Additionally, I would encourage you to install the software at `/projects/$USER/software/`.
 
