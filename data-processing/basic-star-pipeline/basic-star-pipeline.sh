@@ -162,9 +162,9 @@ do
 --detect_adapter_for_pe \
 --thread $pthread \
 -x -g "
-    
-#     echo -e "\t$ ${cmd1}"
-#     time eval $cmd1
+
+     echo -e "\t$ ${cmd1}"
+     time eval $cmd1
 
 done
 
@@ -183,8 +183,8 @@ do
     ## execute star
     cmd2="STAR --genomeDir $starPath --readFilesIn $outputdir"01_fastp/"$samplename/$samplename"_trim_1.fastq" $outputdir"01_fastp/"$samplename/$samplename"_trim_2.fastq" --runThreadN $pthread --outFileNamePrefix $outSTAR/$samplename"
 
-#     echo -e "\t$ ${cmd2}"
-#     time eval $cmd2
+     echo -e "\t$ ${cmd2}"
+     time eval $cmd2
 
 done
 
